@@ -1,9 +1,5 @@
 def get_even_numbers(numbers):
-    even_numbers = []
-    for number in numbers:
-        if number % 2 == 0:
-            even_numbers.append(number)
-    return even_numbers
+    return [number for number in numbers if number % 2 == 0]
 
 def calculate_total(prices):
     total = 0
